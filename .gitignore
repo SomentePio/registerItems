@@ -1,0 +1,20 @@
+notes.md
+
+# * ignora qualquer coisa que tenha o nome que a gente colocar
+# exemplo: *.md
+# ele vai ignorar todos os arquivos com o .mp
+
+# ? substitui um caracter e ignora
+# exemplo ?cript.js
+# ele vai substituir o s de script.js e ignorar
+
+# Intervalos []
+# exemplo test[0-9].md
+# ele vai ignorar todos arquivos que tem .md e que também tenham 0 a 9
+
+# ! excessão de ignore
+# exemplo !app/app.log
+# ele vai ignorar o que tem no diretório app mas não vai ignorar o arquivo app.log
+
+# ignorar um arquivo que já foi comitado
+# no terminal eu coloco git rm -r --cached "nome do arquivo"
